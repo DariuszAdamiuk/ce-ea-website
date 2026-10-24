@@ -1,285 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>CE Equity Advisers | Corporate Finance & Investment Advisory</title>
+    <title>CE Equity Advisers | Corporate Finance & Investment Advisory</title>
 
-<meta name="description"
-      content="Independent corporate finance and investment advisory services for entrepreneurs, investors and businesses across Europe.">
+    <meta name="description"
+        content="Independent corporate finance and investment advisory services for entrepreneurs, investors and businesses across Europe.">
 
-<style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.7;
+            background-color: #ffffff;
+        }
 
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.7;
-    background-color: #ffffff;
-}
+        header {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
 
-header {
-    background: #0f172a;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-}
+        .logo {
+            width: 180px;
+            height: auto;
+            margin-bottom: 25px;
+        }
 
-header h1 {
-    font-size: 3rem;
-    margin-bottom: 15px;
-}
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
 
-header p {
-    font-size: 1.3rem;
-}
+        header p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
 
-.container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 60px 20px;
-}
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
 
-section {
-    margin-bottom: 60px;
-}
+        section {
+            margin-bottom: 60px;
+        }
 
-h2 {
-    color: #0f172a;
-    margin-bottom: 20px;
-}
+        h2 {
+            color: #0f172a;
+            margin-bottom: 20px;
+        }
 
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
 
-.card {
-    flex: 1;
-    min-width: 250px;
-    background: #f4f6f9;
-    padding: 25px;
-    border-radius: 10px;
-}
+        .card {
+            flex: 1;
+            min-width: 250px;
+            background: #f4f6f9;
+            padding: 25px;
+            border-radius: 10px;
+        }
 
-.card h3 {
-    color: #0f172a;
-    margin-bottom: 10px;
-}
+        .card h3 {
+            color: #0f172a;
+            margin-bottom: 10px;
+        }
 
-.profile {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    flex-wrap: wrap;
-}
+        .profile {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
 
-.profile img {
-    width: 220px;
-    border-radius: 10px;
-}
+        .profile img {
+            width: 260px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
 
-.contact {
-    background: #f8f9fb;
-    padding: 25px;
-    border-radius: 10px;
-}
+        .contact {
+            background: #f8f9fb;
+            padding: 25px;
+            border-radius: 10px;
+        }
 
-footer {
-    background: #0f172a;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
 
-a {
-    color: #d4af37;
-    text-decoration: none;
-}
+        .hero-button {
+            display: inline-block;
+            margin-top: 25px;
+            background: #d4af37;
+            color: #0f172a;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-a:hover {
-    text-decoration: underline;
-}
+        .hero-button:hover {
+            background: #e5bf4a;
+        }
 
-.hero-button {
-    display: inline-block;
-    margin-top: 25px;
-    background: #d4af37;
-    color: #0f172a;
-    padding: 12px 25px;
-    border-radius: 6px;
-    font-weight: bold;
-}
+        a {
+            color: #0f172a;
+        }
 
-ul {
-    margin-left: 20px;
-}
-
-</style>
+        ul {
+            margin-left: 25px;
+        }
+    </style>
 </head>
 
 <body>
 
-<header>
+    <header>
 
-    <h1>CE Equity Advisers</h1>
+        <img src="Logo (2).jpg"
+            alt="CE Equity Advisers Logo"
+            class="logo">
 
-    <p>
-        Independent Corporate Finance &
-        Investment Advisory
-    </p>
-
-    <a href="#contact" class="hero-button">
-        Contact Us
-    </a>
-
-</header>
-
-<div class="container">
-
-<section>
-    <h2>About Us</h2>
-
-    <p>
-        CE Equity Advisers provides independent corporate finance
-        and investment advisory services to entrepreneurs,
-        business owners, investors and growing companies across Europe.
-    </p>
-
-    <p>
-        We support clients through strategic transactions,
-        acquisitions, divestitures, fundraising and value creation initiatives.
-    </p>
-</section>
-
-<section>
-
-    <h2>Our Services</h2>
-
-    <div class="services">
-
-        <div class="card">
-            <h3>Mergers & Acquisitions</h3>
-            <p>
-                Buy-side and sell-side advisory for strategic
-                and financial investors.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Capital Raising</h3>
-            <p>
-                Debt and equity financing support for growth,
-                acquisitions and refinancing.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Strategic Advisory</h3>
-            <p>
-                Business valuation, financial modelling
-                and transaction preparation.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<section>
-
-    <h2>Why CE Equity Advisers</h2>
-
-    <ul>
-        <li>Independent advice</li>
-        <li>Senior-level engagement</li>
-        <li>Cross-border transaction experience</li>
-        <li>European market focus</li>
-        <li>Long-term value creation mindset</li>
-    </ul>
-
-</section>
-
-<section>
-
-    <h2>Managing Partner</h2>
-
-    <div class="profile">
-
-        <img src="dariusz.jpg"
-             alt="Dariusz Adamiuk">
-
-        <div>
-
-            <h3>Dariusz Adamiuk</h3>
-
-            <p>
-                Dariusz Adamiuk is the founder and Managing Partner
-                of CE Equity Advisers.
-            </p>
-
-            <p>
-                He advises entrepreneurs, corporate clients
-                and investors on mergers and acquisitions,
-                fundraising and strategic finance transactions.
-            </p>
-
-            <p>
-                His background includes corporate finance,
-                investment banking, private equity
-                and business development, with experience
-                supporting clients across multiple industries.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="contact">
-
-    <h2>Contact</h2>
-
-    <div class="contact">
+        <h1>CE Equity Advisers</h1>
 
         <p>
-            Email:
-            <a href="mailto:contact@ce-ea.com">
-                contact@ce-ea.com
-            </a>
+            Independent Corporate Finance & Investment Advisory
+            for entrepreneurs, investors and growing businesses
+            across Central and Eastern Europe.
         </p>
 
-        <p>
-            Website:
-            <a href="https://www.ce-ea.com">
-                www.ce-ea.com
-            </a>
-        </p>
+        <a href="#contact" class="hero-button">
+            Contact Us
+        </a>
 
-        <p>
-            LinkedIn:
-            <a href="#">
-                Coming Soon
-            </a>
-        </p>
+    </header>
 
-    </div>
+    <div class="container">
 
-</section>
+        <section>
+            <h2>About Us</h2>
 
-</div>
+            <p>
+                CE Equity Advisers provides independent corporate finance and
+                investment advisory services to entrepreneurs, business owners,
+                investors and growing companies across Europe.
+            </p>
 
-<footer>
-    © 2026 CE Equity Advisers. All rights reserved.
-</footer>
+            <p>
+                We support clients through strategic transactions,
+                acquisitions, divestitures, fundraising and value creation initiatives.
+            </p>
+        </section>
 
-</body>
-</html>
+        <section>
+
+            <h2>Our Services</h2>
+
+            <div class="services">
+
+                <div class="card">
+                    <h3>Mergers & Acquisitions</h3>
+                    <p>
+                        Buy-side and sell-side advisory for strategic and
+                        financial investors.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Capital Raising</h3>
+                    <p>
+                        Debt and equity financing support for growth,
+                        acquisitions and refinancing.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Strategic Advisory</h3>
+                    <p>
+                        Business valuation, financial modelling and
+                        transaction preparation.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2>Why CE Equity Advisers</h2>
+
+            <ul>
+                <li>Independent advice</li>
+                <li>Senior-level engagement</li>
+                <li>Cross-border transaction experience</li>
+                <li>European market focus</li>
+                <li>Long-term value creation mindset</li>
+            </ul>
+
+  
+
+
